@@ -1,11 +1,11 @@
-package com.neoteric.collections.collections;
+package com.neoteric.collections.collections.treeandhash;
 
 import java.util.TreeMap;
 
 public class TreeMapTest {
     public static void main(String[] args) {
 
-        TreeMap<Integer,Employee> employeeTreeMap = new TreeMap<>();
+        TreeMap<Integer, Employee> employeeTreeMap = new TreeMap<>();
         employeeTreeMap.put(01, new Employee(01,"Krish","IT"));
         employeeTreeMap.put(02, new Employee(02,"Ashri","Hr"));
         employeeTreeMap.put(03, new Employee(03,"ShriRan","Business"));

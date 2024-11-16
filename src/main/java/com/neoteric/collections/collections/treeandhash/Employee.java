@@ -1,4 +1,4 @@
-package com.neoteric.collections.collections;
+package com.neoteric.collections.collections.treeandhash;
 
 public class Employee {
 
