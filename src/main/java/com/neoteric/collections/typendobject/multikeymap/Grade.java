@@ -1,4 +1,4 @@
-package com.neoteric.collections.collections.multikeymap;
+package com.neoteric.collections.typendobject.multikeymap;
 
 public class Grade {
     private String studentName;

@@ -1,4 +1,4 @@
-package com.neoteric.collections.collections.treeandhash;
+package com.neoteric.collections.typendobject.treeandhash;
 
 import java.util.HashMap;
 

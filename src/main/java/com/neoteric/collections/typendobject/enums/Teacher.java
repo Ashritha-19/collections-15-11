@@ -1,4 +1,4 @@
-package com.neoteric.collections.collections.enums;
+package com.neoteric.collections.typendobject.enums;
 
 
 public class Teacher {
