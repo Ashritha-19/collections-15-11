@@ -28,6 +28,9 @@ public class HashMapTest {
                 System.out.println("\nRemoving Employee with ID 101...");
                 employees.remove(101);
 
+        System.out.println(employees.get(102).hashCode());
+
+        System.out.println(employees.hashCode());
 
                 System.out.println("\nEmployee Records After Removal:");
                 for (Integer id : employees.keySet()) {
