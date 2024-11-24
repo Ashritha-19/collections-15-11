@@ -1,13 +1,11 @@
 package com.neoteric.collections.example1;
 
-import jakarta.persistence.criteria.CriteriaBuilder;
-
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class StudentTest {
+public class HashMapTest {
 
     public static void main(String[] args) {
 
@@ -30,5 +28,13 @@ public class StudentTest {
 
             System.out.println("Subject: " + entry.getKey() + ", Marks: " + entry.getValue());
         }
+
+        // Streams:-
+
+        marksMap.entrySet().stream().forEach(entry -> {
+            System.out.println("key:-" + entry.getKey()+","+ "value:-" + entry.getValue());
+        });
+
+
     }
 }
