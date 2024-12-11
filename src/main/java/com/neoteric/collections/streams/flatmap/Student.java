@@ -1,7 +1,5 @@
 package com.neoteric.collections.streams.flatmap;
 
-import com.neoteric.collections.streams.result.SubjectsEntity;
-
 import java.util.ArrayList;
 import java.util.List;
 

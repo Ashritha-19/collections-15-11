@@ -1,7 +1,5 @@
 package com.neoteric.collections.streams.deptemployees;
 
-import com.neoteric.collections.streams.flatmap.Subjects;
-
 import java.util.ArrayList;
 import java.util.List;
 

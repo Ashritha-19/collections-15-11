@@ -6,9 +6,12 @@ public class Employee {
 
     private double salary;
 
+   // private String department;
+
     public Employee(String name, double salary) {
         this.name = name;
         this.salary = salary;
+       // this.department = department;
     }
 
     public String getName() {
@@ -19,5 +22,9 @@ public class Employee {
     public double getSalary() {
         return salary;
     }
+
+   /* public String getDepartment(){
+        return department;
+    } */
 
 }
